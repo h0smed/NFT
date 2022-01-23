@@ -101,7 +101,7 @@ function HomePage() {
             placeholder="Select Collection"
             onChange={(e) => collectionChanged(e)}
           >
-            {/* Your Option Here ---MAKE SURE VALUE CORRESPONDS TO MORALIS DB CLASS NAME */}
+            <option value="CryptoPunk">CryptoPunk</option>
           </Select>
           <Search
             style={{ width: "250px" }}
